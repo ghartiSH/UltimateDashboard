@@ -1,0 +1,167 @@
+*{
+    margin: auto;
+}
+.text{
+    color: #455a64;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+.main-body{
+    width: 100%;
+    background-color: #F2F3F8;
+}
+.body{
+    width: 75%;
+}
+.top{
+    display: flex;
+}
+.left-top{
+    width: 65%;
+}
+.right-top{
+    width: 30%;
+}
+.box{
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    display: block;
+}
+.big-card{
+    min-height: 620px;
+}
+.left-top-small{
+    height: 200px;
+    display: flex;
+    background-color: #F2F3F8;
+}
+.left-top-small-box{
+    padding-right: 13px;
+    width: 50%;
+    height: 100%;
+    background-color: #F2F3F8;
+}
+.left-top-small-box-right{
+    padding-left: 13px;
+    width: 50%;
+    height: 100%;
+    background-color: #F2F3F8;
+    
+}
+.left-small-card{
+    height: 80%;
+}
+.right-top-small{
+    height: 168px;
+}
+.right-top-big{
+    height: 380px;
+}
+
+.middle{
+    width: 98%;
+    display:flex;
+}
+.middle-card{
+    min-height: 400px;
+}
+.left-middle-box{
+    width: 30%;
+    margin: 0px;
+}
+.middle-middle-box{
+    width: 45%;
+    margin: 0px 20px 0px 20px;
+}
+.right-middle-box{
+    width: 30%;
+}
+.right-middle-top{
+    height: 135px;
+}
+.right-middle-bottom{
+    min-height: 200px;
+}
+.middle-bottom{
+    display: flex;
+    width: 100%;
+}
+
+.middle-bottom-left{
+    width: 60%;
+    padding: 0px 15px 0px 15px;
+}
+.middle-bottom-right{
+    width: 40%;
+    padding: 0px 15px 0px 15px;
+}
+
+.bottom{
+    width: 98%;
+}
+
+@media screen and (max-width: 1600px) {
+    .body{
+        width: 90%;
+    }
+   
+}
+@media screen and (max-width: 1200px) {
+    .left-top{
+        width: 100%;
+    }
+    .right-top{
+        width: 100%;
+    }
+    .top{
+        display: block;
+    }
+    .middle{
+        display: block;
+    }
+    .left-middle-box{
+        width: 100%;
+    }
+    .middle-middle-box{
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+    }
+    .right-middle-box{
+        width: 100%;
+    }
+    .middle-bottom{
+        display: block;
+    }
+    .middle-bottom-left{
+        width: 100%;
+        padding: 0px;
+    }
+    .middle-bottom-right{
+        width: 100%;
+        padding: 0px;
+    }
+    .right-top-big{
+        height: auto;
+    }
+    
+}
+@media screen and (max-width: 770px) {
+    .left-top-small{
+        display: block;
+        height: 450px;
+    }
+    .left-top-small-box{
+        float: none;
+        width: 100%;
+        height: 48%;
+        padding-right: 0px;
+        
+    }
+    .left-top-small-box-right{
+        float: none;
+        width: 100%;
+        height: 48%;
+        padding-left: 0px;
+    }
+    
+}

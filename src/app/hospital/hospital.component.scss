@@ -1,0 +1,38 @@
+@import '../analytics/analytics.component.scss';
+
+.middle-left{
+    width: 75%;
+    padding:15px;
+}
+
+.left-top{
+    width: 55%;
+    padding: 15px;
+}
+.right-top{
+    width: 40%;
+    padding: 0px 15px 0px 15px;
+}
+
+@media screen and (max-width:1600px){
+
+}
+@media screen and (max-width:1200px){
+    .middle-left{
+        width: 100%;
+        padding: 0px;
+    }
+    .left-top{
+        width: 100%;
+        padding: 0px;
+    }
+    .right-top{
+        width: 100%;
+        padding: 0px;
+    }
+
+
+}
+@media screen and (max-width:770px){
+
+}

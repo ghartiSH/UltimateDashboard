@@ -1,0 +1,74 @@
+@import '../home/home.component.scss';
+
+.top-small{
+    width: 25%;
+    padding: 15px;
+}
+
+.middle-half{
+    width: 50%;
+    padding: 15px;
+}
+
+.small{
+    width: 100%;
+    display: flex;
+   
+}
+.small-box{
+    width: 32%;
+    padding: 15px;
+    background-color: #F2F3F8;
+}
+.midbox{
+    display: flex;
+}
+.midbox1{
+
+    width: 60%;
+
+}
+.midbox2{
+
+    width: 30%;
+
+}
+
+
+@media screen and (max-width:1600px){
+
+}
+@media screen and (max-width:1200px){
+    .top-small{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .small{
+        display: block;
+    }
+    .small-box{
+        width:100%;
+        padding: 0px;
+    }
+    .middle-half{
+        width: 100%;
+        padding: 0px;
+    }
+    .midbox{
+        display: block;
+        
+    }
+    .midbox1{
+        width: 100%;
+    }
+    .midbox2{
+        width: 100%;
+    }
+
+
+}
+@media screen and (max-width:770px){
+
+
+}

@@ -1,0 +1,29 @@
+@import '../home/home.component.scss';
+
+.top-small{
+    width: 100%;
+    display: flex;
+   
+}
+.small-box{
+    width: 32%;
+    padding: 15px;
+    background-color: #F2F3F8;
+}
+
+@media screen and (max-width:1600px){
+
+}
+@media screen and (max-width:1200px){
+    .top-small{
+        display: block;
+    }
+    .small-box{
+        width:100%;
+        padding: 0px;
+    }
+
+}
+@media screen and (max-width:770px){
+
+}
