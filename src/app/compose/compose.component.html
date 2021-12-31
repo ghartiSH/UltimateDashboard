@@ -1,0 +1,61 @@
+<div class="main-body">
+    <mat-drawer-container>
+        <mat-drawer mode="side" opened="true">
+          <button mat-button class="text" style="width: 95%; background-color: #17b3a3; color: white;">Back to Inbox</button>
+
+          <p class="text" style="font-size: 18px; margin-top: 50px;">Folders</p>
+          <mat-divider></mat-divider>
+          <section style="margin-top: 30px;">
+                <p class="text side-buttons"><i class="bi bi-envelope"></i>Inbox<span style="float: right; background-color:#17b3a3; border-radius: 5px;width: 15px;">12</span></p>
+                <p class="text side-buttons"><i class="bi bi-send"></i>Sent</p>
+                <p class="text side-buttons"><i class="bi bi-envelope-exclamation-fill"></i>Drafts</p>
+                <p class="text side-buttons"><i class="bi bi-star-fill"></i>Starred<span style="float: right; background-color:yellow; border-radius: 5px;width: 15px;">12</span></p>
+                <p class="text side-buttons"><i class="bi bi-trash"></i>Trash</p>
+          </section>
+          <p class="text" style="font-size: 18px; margin-top: 30px;">Labels</p>
+          <mat-divider></mat-divider>
+          <section style="margin-top: 30px;">
+            <p class="text side-buttons"><i class="bi bi-circle"></i>Important</p>
+            <p class="text side-buttons"><i class="bi bi-circle"></i>Promotions</p>
+            <p class="text side-buttons"><i class="bi bi-circle"></i>social</p>
+          </section>
+        </mat-drawer>
+        <mat-drawer-content>
+            <mat-card class="body-card">
+                <p class="text" style="font-size: 18px; margin-top: 30px;">Compose a new Message</p>
+                    
+                <mat-divider style="margin-top: 10px;"></mat-divider>
+
+                <section style="margin-top: 20px;">
+                    <input type="text" class="text" placeholder="To:">
+                    <input type="text" class="text" placeholder="Subject :">
+                </section>
+                <section style="margin-top:30px; display: flex; width: 100%;flex-wrap: wrap;">
+                    <button  class="text ">A Normal Text</button>
+                    <button  class="text " style="font-weight: 700;">Bold</button>
+                    <button  class="text " style="font-style:italic;">Itallic</button>
+                    <button  class="text " style="text-decoration: underline;">Underline</button>
+                    <button  class="text ">Small</button>
+                    <button  ><i class="bi bi-quote"></i></button>
+                    <button  ><i class="bi bi-list-columns-reverse"></i></button>
+                    <button  ><i class="bi bi-list-columns-reverse"></i></button>
+                    <button  ><i class="bi bi-text-indent-left"></i></button>
+                    <button  ><i class="bi bi-text-indent-right"></i></button>
+                    <button  ><i class="bi bi-card-image"></i></button>
+                </section>
+                <textarea class="text"></textarea>
+                <button mat-button class="text" style="background-color: #3e8ef7; color: white; margin-top: 20px; margin-left: 0px;"> <i class="bi bi-paperclip"></i>Attachment</button>
+                <p class="text">Max: 25Mb</p>
+                <mat-divider></mat-divider>
+                <section class="final-buttons">
+                    <button mat-button style="background-color: #ff4c52;height: 50px; color: white; float: left;"><i class="bi bi-x-lg"></i>Discard</button>
+                    <section style="float: right; display: flex;">
+                        <button mat-button style="background-color: #E5E5E5;height: 50px;"><i class="bi bi-pencil-fill"></i>Draft</button>
+                        <button mat-button style="background-color:  #17b3a3;;height: 50px; color: white;"><i class="bi bi-envelope-fill"></i>Send</button>
+                    </section>
+                </section>
+            </mat-card>
+        </mat-drawer-content>
+      </mat-drawer-container>
+</div>
+

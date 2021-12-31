@@ -1,0 +1,47 @@
+@import '../inbox/inbox.component.scss';
+
+mat-drawer-container{
+    height: 100vh;
+   
+}
+
+.body-card{
+    min-height: 85vh;
+}
+input{
+    border-radius: 5px;
+    border: solid 1px #d2d6de;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 20px;
+}
+button{
+    border: solid 1px #E5E5E5;
+    margin-left: 5px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea{
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+    border: solid 1px #d2d6de;
+}
+textarea:focus{
+    outline: none;
+}
+
+.final-buttons{
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    min-height: 60px;
+}
+@media screen and  (max-width: 350px){
+    .final-buttons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

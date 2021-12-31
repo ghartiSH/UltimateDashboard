@@ -1,0 +1,98 @@
+<div class="main-body">
+    <mat-drawer-container>
+        <mat-drawer mode="side" opened="true">
+          <button mat-button class="text" style="width: 95%; background-color: #17b3a3; color: white;">Back to Inbox</button>
+
+          <p class="text" style="font-size: 18px; margin-top: 50px;">Folders</p>
+          <mat-divider></mat-divider>
+          <section style="margin-top: 30px;">
+                <p class="text side-buttons"><i class="bi bi-envelope"></i>Inbox<span style="float: right; background-color:#17b3a3; border-radius: 5px;width: 15px;">12</span></p>
+                <p class="text side-buttons"><i class="bi bi-send"></i>Sent</p>
+                <p class="text side-buttons"><i class="bi bi-envelope-exclamation-fill"></i>Drafts</p>
+                <p class="text side-buttons"><i class="bi bi-star-fill"></i>Starred<span style="float: right; background-color:yellow; border-radius: 5px;width: 15px;">12</span></p>
+                <p class="text side-buttons"><i class="bi bi-trash"></i>Trash</p>
+          </section>
+          <p class="text" style="font-size: 18px; margin-top: 30px;">Labels</p>
+          <mat-divider></mat-divider>
+          <section style="margin-top: 30px;">
+            <p class="text side-buttons"><i class="bi bi-circle"></i>Important</p>
+            <p class="text side-buttons"><i class="bi bi-circle"></i>Promotions</p>
+            <p class="text side-buttons"><i class="bi bi-circle"></i>social</p>
+          </section>
+        </mat-drawer>
+        <mat-drawer-content>
+            <mat-card class="body-card">
+                <section style="display: block ">
+                    <button style="padding:8px; float: left;"> <i class="bi bi-printer" ></i></button>
+                    <section style="display: flex; float: right;">
+                        <button style="padding:8px;"><i class="bi bi-trash"></i></button>
+                        <button style="padding: 8px;"><i class="bi bi-arrow-90deg-left"></i></button> 
+                        <button style="padding:8px;"><i class="bi bi-arrow-90deg-right"></i></button>
+                    </section>
+                </section>
+                <mat-divider style="margin-top: 50px;"></mat-divider>
+                <p class="text" style="font-size: 18px; margin-top: 70px; margin-bottom: 20px;">Your Message Title goes here</p>
+                
+                <mat-divider></mat-divider>
+
+                <section style="display: block; margin-top: 30px; width: 100%; min-height:60px;">
+                    <section style="display: flex; float: left;">
+                        <img src="assets/images/profile.jpg" height="50px" width="50px" style="border-radius: 40px;">
+                        <section style="padding: 5px 0px 0px 10px;">
+                            <p class="text" style="font-size: 16px;">Jacob <br><span style="font-size: 10px;">jacob@email.com</span></p>
+                        </section>
+                    </section>
+                    <p class="text" style="float: right;"> 22 JUL. 2018 08:03 PM</p>
+                </section>
+
+                <section style="margin-top: 20px; width: 100%;">
+                    <p class="text">Dear User,<br><br>
+
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.<br><br>
+                        
+                        enean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar.<br><br>
+                        
+                        Thanks,<br>
+                        Jane</p>
+                </section>
+                <mat-divider></mat-divider>
+                <section style="margin-top: 20px;">
+                    <p class="text" style="font-size: 18px;">Attachments (3)</p>
+                    <section class="files">
+                        <mat-card class="small-card">
+                            <img mat-card-sm-image src="assets/images/file.png">
+                            <p class="text" style="font-size: 12px;line-height: normal;">asd.pdf</p>
+                            <p class="text">5225.25 KB</p>
+                        </mat-card>
+                        <mat-card class="small-card">
+                            <img mat-card-sm-image src="assets/images/file.png">
+                            <p class="text" style="font-size: 12px; line-height: normal;">asd.pdf</p>
+                            <p class="text">5225.25 KB</p>
+                        </mat-card>
+                        <mat-card class="small-card">
+                            <img mat-card-image src="assets/images/fileimage.png">
+                            <p class="text" style="font-size: 12px; line-height: normal;">asd.pdf</p>
+                            <p class="text">5225.25 KB</p>
+                        </mat-card>
+                    </section>
+                </section>
+                <mat-divider style="margin-top: 20px;"></mat-divider>
+                <section class="final-buttons">
+                    <section style="display: flex; float: left;">
+                        <button mat-button style="background-color: #ff4c52;color: white;"><i class="bi bi-x-lg"></i>Delete</button>
+                        <button mat-button style="background-color: #faa700;color: white;"><i class="bi bi-x-lg"></i>Delete</button>
+
+
+                    </section>
+                    <section style="float: right; display: flex;">
+                        <button mat-button style="background-color:  #17b3a3; color: white;"><i class="bi bi-envelope-fill"></i>Send</button>
+                        <button mat-button style="background-color:  #3e8ef7; color: white;"><i class="bi bi-envelope-fill"></i>Send</button>
+
+                    </section>
+                </section>
+            </mat-card>
+        </mat-drawer-content>
+      </mat-drawer-container>
+</div>
+
+

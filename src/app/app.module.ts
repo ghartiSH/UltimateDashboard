@@ -30,6 +30,9 @@ import { AnalyticsComponent } from './analytics/analytics.component';
 import { HospitalComponent } from './hospital/hospital.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { InboxComponent } from './inbox/inbox.component';
+import { ComposeComponent } from './compose/compose.component';
+import { ReadComponent } from './read/read.component';
 
 
 @NgModule({
@@ -42,7 +45,10 @@ import { SignupComponent } from './signup/signup.component';
     AnalyticsComponent,
     HospitalComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    InboxComponent,
+    ComposeComponent,
+    ReadComponent
   ],
   imports: [
     BrowserModule,
