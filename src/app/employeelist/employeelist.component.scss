@@ -1,0 +1,147 @@
+*{
+    margin: auto;
+}
+.main-body{
+    height: 300vh;
+    background-color: #F2F3F8;
+}
+.body{
+    width: 75%;
+}
+.text{
+    color: #455a64;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+.menu-button{
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+}
+mat-menu{
+    padding: 15px !important;
+}
+.dropdown-button{
+    border: none;
+    outline: none;
+    width: 200px;
+}
+.content{
+    display: block;
+    margin-top: 20px;
+}
+
+.left{
+    float: left;
+    width: 69%;
+    display: block;
+    overflow: hidden;
+}
+.big-card{
+    
+    background-color: white;
+    
+}
+.small-card{
+    width: 28%;
+    background-color: white;
+    float: right;
+    padding: 20px;
+    
+}
+.side-button{
+    padding: 5px 10px 5px 10px;
+    border: solid 1px #17b3a3;
+    color: #17b3a3;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.employee-card{
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    min-height: 100px;
+}
+button{
+    outline: none;
+}
+
+.employee-card:hover{
+    .hidden-icon{
+        display: block;
+    }
+    background-color: lightgray;
+}
+
+.list{
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    width: 38%;
+    float: left;
+}
+
+
+.hidden-icon{
+    margin-top: 30px;
+    width: 20%;
+    float: right;
+    display: none;
+}
+
+i{
+    margin-right: 5px;
+    
+}
+.big{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.paginator{
+    margin-top: 30px;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+@media screen and  (max-width: 1500px){
+    .pagination{
+        width: 100%;;
+    }
+    .body{
+        width: 90%;
+    }
+    .list{
+        width: 50%;
+    }
+}
+
+@media screen and  (max-width: 850px){
+    .left{
+        float: none;
+        width: 100%;
+    }
+    .small-card{
+        float: none;
+        width: 100%;
+    }
+    .list{
+        width: 50%;
+    }
+}
+@media screen and  (max-width: 450px){
+    .list{
+        flex-direction: column;
+        float: none;
+        width: 100%;
+    }
+    .hidden-icon{
+        float: none;
+    }
+}
+
+
+

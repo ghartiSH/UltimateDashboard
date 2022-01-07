@@ -21,6 +21,7 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
@@ -33,6 +34,10 @@ import { SignupComponent } from './signup/signup.component';
 import { InboxComponent } from './inbox/inbox.component';
 import { ComposeComponent } from './compose/compose.component';
 import { ReadComponent } from './read/read.component';
+import { EmployeeComponent } from './employee/employee.component';
+import { EmployeegridComponent } from './employeegrid/employeegrid.component';
+import { EmployeelistComponent } from './employeelist/employeelist.component';
+import { ChatComponent } from './chat/chat.component';
 
 
 @NgModule({
@@ -48,7 +53,11 @@ import { ReadComponent } from './read/read.component';
     SignupComponent,
     InboxComponent,
     ComposeComponent,
-    ReadComponent
+    ReadComponent,
+    EmployeeComponent,
+    EmployeegridComponent,
+    EmployeelistComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,
@@ -69,7 +78,7 @@ import { ReadComponent } from './read/read.component';
     MatInputModule,
     MatFormFieldModule,
     MatCheckboxModule,
-    
+    MatGridListModule,
     
   ],
   providers: [],

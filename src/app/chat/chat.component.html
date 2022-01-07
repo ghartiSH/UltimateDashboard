@@ -1,0 +1,192 @@
+<div class="main-body">
+    <div class="body">
+        <section style="padding: 20px 0px 20px 0px;">
+            <p class="text" style="font-size: 24px;"> Chat App  | <span style="font-size:16px">
+                <i class="bi bi-house-door"></i> - Contact - Chat app
+            </span> <span style="float: right;">
+                <button mat-button [matMenuTriggerFor]="menu" class="menu-button"><i class="bi bi-three-dots"></i></button>
+                    <mat-menu #menu="matMenu">
+                        <button mat-menu-item class="dropdown-button text" style="font-size: 18px;"><i class="bi bi-reply"></i>Activity</button>
+                        <button mat-menu-item  class="dropdown-button text" style="font-size: 18px;"><i class="bi bi-chat-left-text"></i>Messages</button>
+                        <button mat-menu-item  class="dropdown-button text" style="font-size: 18px;"><i class="bi bi-patch-question"></i>FAQ</button>
+                        <button mat-menu-item  class="dropdown-button text" style="font-size: 18px;"> <i class="bi bi-gear"></i>Support</button>
+                        <mat-divider style="margin: 10px 0px 10px 0px;"></mat-divider>
+                        <button mat-button  class="text" style="background-color: #17b3a3;color: white;margin-left: 10px;">Submit</button>
+                    </mat-menu>
+            </span></p>
+        </section>
+        <section class="content">
+            <div class="left">
+                <mat-card class="card">
+                    <p class="text" style="font-size: 20px;"> Chat Message</p>
+                    <mat-divider style="margin:20px 0px 20px 0px;"></mat-divider>
+
+
+                   <div class="chat-body">
+                    <section style="margin-top: 10px;"> 
+                        <p class="text">James Anderson <span style="float: right;">April 14, 2017</span> </p>
+                    </section>
+
+                    <section class="reply">
+                        <img src="assets/images/kt.jpg" height="50px" width="50px" style="border-radius: 10px; margin: 0px;">
+                        <section class="text messages">
+                            <p class="reply-message"> Hi</p>
+                            <p class="reply-message">How are you...???</p>
+                            <p class="reply-message">What are you doing tomorrow?<br>
+                                Would you like to get out of the town for a while?</p>
+                            <p> 23:58</p>
+                        </section>
+                    </section>
+
+                    <section class="from-me">
+                        <p > You </p>
+                        <section class="text messages">
+                            <p class="my-message"> .Hiiii, I'm good</p>
+                            <p class="my-message"> ?How are you doing</p>
+                            <p class="my-message"> !Long time no see</p>
+                            <p > 23:58</p>
+                        </section>
+                    </section>
+
+                    <section class="reply">
+                        <img src="assets/images/kt.jpg" height="50px" width="50px" style="border-radius: 10px; margin: 0px;">
+                        <section class="text messages">
+                            <p class="reply-message"> Yeah</p>
+                            <p class="reply-message">We were out of country for a vacation. We visited several beautiful countries and made a lot of memmories.</p>
+                            
+                            <p> 23:58</p>
+                        </section>
+                    </section>
+
+                    <section class="from-me">
+                        <p > You </p>
+                        <section class="text messages">
+                            <p class="my-message"> !That's awesome</p>
+                            <p class="my-message"> .You should tell me everything with all small details. I'm so curious to hear your stories</p>
+                            <p class="my-message"> ?Did you take pictures</p>
+                            <p > 23:58</p>
+                        </section>
+                    </section>
+
+                    <section> 
+                        <p class="text" style="margin-top: 30px;">James Anderson <span style="float: right;">April 14, 2017</span> </p>
+                    </section>
+
+                    <section class="reply">
+                        <img src="assets/images/kt.jpg" height="50px" width="50px" style="border-radius: 10px; margin: 0px;">
+                        <section class="text messages">
+                            <p class="reply-message"> We took a loooot. Here is some of them, I'll show you the rest once we meet.</p>
+                            <p class="reply-message image-reply">
+                                <img src="assets/images/weather.jpg" class="chat-image">
+                                <img src="assets/images/analback.jpg" class="chat-image">
+                                <img src="assets/images/analback.jpg" class="chat-image">
+                            </p>
+                            
+                            <p> 23:58</p>
+                        </section>
+                    </section>
+
+                    <section class="from-me">
+                        <p > You </p>
+                        <section class="text messages">
+                            <p class="my-message"> These places are fantastic. Wish I could join you guys</p>
+                            <p > 23:58</p>
+                        </section>
+                    </section>
+
+                   </div>
+                   <mat-divider></mat-divider>
+                   <div class="search">
+                        <input  class="text" placeholder="Type Message... ">
+                        <section class="search-buttons">
+                            <i class="bi bi-paperclip"></i>
+                            <i class="bi bi-emoji-smile"></i>
+                            <i class="bi bi-send"></i>
+                        </section>
+                   </div>
+
+                </mat-card>
+            </div>
+
+            <div class="right">
+                <mat-card class="card">
+                   <input class="text"style="width: 100%;" placeholder="Search Contact">
+                   <mat-divider style="margin: 10px 0px 10px 0px;"></mat-divider>
+                   <div class="contacts">
+                        <section class="profile">
+                            <img src="assets/images/kt.jpg" class="avatar">
+                            <section style="margin-left:0px;">
+                                <p class="text"> Hossein Shams <br><span style="font-size: 10px; color: green;"> Online </span></p>
+                            </section>
+                        </section>
+                        <hr style="border:solid 1px #efefef;; width:100%">
+                        <section class="profile">
+                            <img src="assets/images/kt.jpg" class="avatar">
+                            <section style="margin-left:0px;">
+                                <p class="text"> Hossein Shams <br><span style="font-size: 10px; color: green;"> Online </span></p>
+                            </section>
+                        </section>
+                        <hr style="border:solid 1px #efefef;; width:100%">
+                        <section class="profile">
+                            <img src="assets/images/kt.jpg" class="avatar">
+                            <section style="margin-left:0px;">
+                                <p class="text"> Hossein Shams <br><span style="font-size: 10px; color: green;"> Online </span></p>
+                            </section>
+                        </section>
+                        <hr style="border:solid 1px #efefef;; width:100%">
+                        <section class="profile">
+                            <img src="assets/images/kt.jpg" class="avatar">
+                            <section style="margin-left:0px;">
+                                <p class="text"> Hossein Shams <br><span style="font-size: 10px; color: green;"> Online </span></p>
+                            </section>
+                        </section>
+                        <hr style="border:solid 1px #efefef;; width:100%">
+                        <section class="profile">
+                            <img src="assets/images/kt.jpg" class="avatar">
+                            <section style="margin-left:0px;">
+                                <p class="text"> Hossein Shams <br><span style="font-size: 10px; color: green;"> Online </span></p>
+                            </section>
+                        </section>
+                        <hr style="border:solid 1px #efefef;; width:100%">
+                        <section class="profile">
+                            <img src="assets/images/kt.jpg" class="avatar">
+                            <section style="margin-left:0px;">
+                                <p class="text"> Hossein Shams <br><span style="font-size: 10px; color: green;"> Online </span></p>
+                            </section>
+                        </section>
+                        <hr style="border:solid 1px #efefef;; width:100%">
+                        <section class="profile">
+                            <img src="assets/images/kt.jpg" class="avatar">
+                            <section style="margin-left:0px;">
+                                <p class="text"> Hossein Shams <br><span style="font-size: 10px; color: green;"> Online </span></p>
+                            </section>
+                        </section>
+                        <hr style="border:solid 1px #efefef;; width:100%">
+                        <section class="profile">
+                            <img src="assets/images/kt.jpg" class="avatar">
+                            <section style="margin-left:0px;">
+                                <p class="text"> Hossein Shams <br><span style="font-size: 10px; color: green;"> Online </span></p>
+                            </section>
+                        </section>
+                        <hr style="border:solid 1px #efefef;; width:100%">
+                        <section class="profile">
+                            <img src="assets/images/kt.jpg" class="avatar">
+                            <section style="margin-left:0px;">
+                                <p class="text"> Hossein Shams <br><span style="font-size: 10px; color: green;"> Online </span></p>
+                            </section>
+                        </section>
+                        <hr style="border:solid 1px #efefef;; width:100%">
+                        <section class="profile">
+                            <img src="assets/images/kt.jpg" class="avatar">
+                            <section style="margin-left:0px;">
+                                <p class="text"> Hossein Shams <br><span style="font-size: 10px; color: green;"> Online </span></p>
+                            </section>
+                        </section>
+                        <hr style="border:solid 1px #efefef;; width:100%">
+                    
+                   </div>
+                </mat-card>
+            </div>
+        </section>
+    </div>
+</div>
